@@ -3,6 +3,7 @@ import './App.css';
 import StarRating from './StarRating';
 import UserList from './UsersList';
 import TellMessage from './TellMessage';
+import ColorSound from './ColorSound';
 
 function App() { 
   return (
@@ -13,6 +14,8 @@ function App() {
       <UserList />
       <h1>Tell Message (useReducer)</h1>
       <TellMessage />
+      <h1>Color of the sound (useRef)</h1>
+      <ColorSound />
     </div>
   );
 }
